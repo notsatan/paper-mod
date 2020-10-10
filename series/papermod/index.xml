@@ -3,4 +3,4 @@ After you have created a new site, at Step 3 follow the steps:
 Inside the folder of your Hugo site, run:
 git clone https://github.com/adityatelange/hugo-PaperMod themes/hugo-PaperMod --depth=1 Updating theme :
 cd themes/hugo-PaperMod git pull or you can use as submodule with
-git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod Updating theme with submodule :</description></item></channel></rss>
+git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod git submodule update --init --recursive Updating theme with submodule :</description></item></channel></rss>
