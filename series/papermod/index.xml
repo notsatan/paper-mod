@@ -12,12 +12,7 @@
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0530</pubDate>
       
       <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/</guid>
-      <description>Guide Follow this guide to setup hugo and create a new site. Make sure you install latest version of hugo(&amp;gt;=0.74.0).
-After you have created a new site, at Step 3 follow the steps:
-Inside the folder of your Hugo site, run:
- git clone https://github.com/adityatelange/hugo-PaperMod themes/hugo-PaperMod --depth=1  Updating theme :
-cd themes/hugo-PaperMod git pull   or you can use as submodule with
- git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod git submodule update --init --recursive  Updating theme with submodule :</description>
+      <description>Read Install and Update instructions here</description>
     </item>
     
   </channel>
