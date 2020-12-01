@@ -344,6 +344,16 @@
   
   <url>
     <loc>https://adityatelange.github.io/hugo-PaperMod/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="l2"
+                href="https://adityatelange.github.io/hugo-PaperMod/l2/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adityatelange.github.io/hugo-PaperMod/archives/"
+                />
   </url>
   
 </urlset>
