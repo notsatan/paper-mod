@@ -106,5 +106,14 @@
       <description>archives</description>
     </item>
     
+    <item>
+      <title>Search</title>
+      <link>https://adityatelange.github.io/hugo-PaperMod/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://adityatelange.github.io/hugo-PaperMod/search/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -356,4 +356,18 @@
                 />
   </url>
   
+  <url>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="l2"
+                href="https://adityatelange.github.io/hugo-PaperMod/l2/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adityatelange.github.io/hugo-PaperMod/search/"
+                />
+  </url>
+  
 </urlset>
