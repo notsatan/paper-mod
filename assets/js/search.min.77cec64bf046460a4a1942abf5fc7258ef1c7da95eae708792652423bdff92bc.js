@@ -149,5 +149,5 @@ Fuse.version='6.4.3';Fuse.createIndex=createIndex;Fuse.parseIndex=parseIndex;Fus
 {register(ExtendedSearch);}
 return Fuse;})));;var fuse;function loadSearch(){var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState===4){if(xhr.status===200){var data=JSON.parse(xhr.responseText);if(data){var options={isCaseSensitive:false,shouldSort:true,location:0,distance:100,threshold:0.4,minMatchCharLength:0,keys:['title','permalink','summary','content']};fuse=new Fuse(data,options);}}else{console.log(xhr.responseText);}}};xhr.open('GET',"../index.json");xhr.send();}
 document.getElementById("searchInput").onkeyup=function(e){const results=fuse.search(this.value);if(results.length!==0){let resultSet='';for(let item in results){resultSet=resultSet+itemGen(results[item].item.title,results[item].item.permalink)}
-document.getElementById("searchResults").innerHTML=resultSet;}}
+document.getElementById("searchResults").innerHTML=resultSet;}else{document.getElementById("searchResults").innerHTML='';}}
 function itemGen(name,link){return `<li class="post-entry"><header class="entry-header">${name}&nbsp;»</header><a href="${link}" aria-label="${name}"></a></li>`}
