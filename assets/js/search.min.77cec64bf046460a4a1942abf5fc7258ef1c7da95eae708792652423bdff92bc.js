@@ -151,5 +151,3 @@ return Fuse;})));;var fuse;function loadSearch(){var xhr=new XMLHttpRequest();xh
 document.getElementById("searchInput").onkeyup=function(e){const results=fuse.search(this.value);if(results.length!==0){let resultSet='';for(let item in results){resultSet=resultSet+itemGen(results[item].item.title,results[item].item.permalink)}
 document.getElementById("searchResults").innerHTML=resultSet;}else{document.getElementById("searchResults").innerHTML='';}}
 function itemGen(name,link){return `<li class="post-entry"><header class="entry-header">${name}&nbsp;»</header><a href="${link}" aria-label="${name}"></a></li>`}
-function changeURL(url){if(history.replaceState){window.history.replaceState({path:url},'',url);}}
-function getSearchQuery(){return decodeURIComponent((location.search.split('q=')[1]||'').split('&')[0]).replace(/\+/g,' ');}
