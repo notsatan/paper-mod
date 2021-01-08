@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/fa/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adityatelange.github.io/hugo-PaperMod/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://adityatelange.github.io/hugo-PaperMod/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://adityatelange.github.io/hugo-PaperMod/fa/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/fa/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adityatelange.github.io/hugo-PaperMod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://adityatelange.github.io/hugo-PaperMod/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://adityatelange.github.io/hugo-PaperMod/fa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/fa/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adityatelange.github.io/hugo-PaperMod/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://adityatelange.github.io/hugo-PaperMod/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://adityatelange.github.io/hugo-PaperMod/fa/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/fa/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adityatelange.github.io/hugo-PaperMod/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://adityatelange.github.io/hugo-PaperMod/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://adityatelange.github.io/hugo-PaperMod/fa/tags/"
+                />
+  </url>
+  
+</urlset>
