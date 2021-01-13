@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 24 Sep 2020 11:33:33 +0530</lastBuildDate><atom:link href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Papermod - Installation</title>
+      <title>Installation | Update</title>
       <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0530</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Papermod - Features</title>
+      <title>Features</title>
       <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/</link>
       <pubDate>Wed, 16 Sep 2020 11:30:03 +0530</pubDate>
       
@@ -25,7 +25,16 @@
     </item>
     
     <item>
-      <title>Papermod - Icons</title>
+      <title>FAQs</title>
+      <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</link>
+      <pubDate>Fri, 18 Sep 2020 11:30:03 +0530</pubDate>
+      
+      <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</guid>
+      <description>Frequently Asked Questions</description>
+    </item>
+    
+    <item>
+      <title>Icons</title>
       <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/</link>
       <pubDate>Thu, 17 Sep 2020 11:30:03 +0530</pubDate>
       
@@ -34,21 +43,12 @@
     </item>
     
     <item>
-      <title>Papermod - Variables</title>
+      <title>Variables | Front Matter</title>
       <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/</link>
       <pubDate>Thu, 24 Sep 2020 11:33:33 +0530</pubDate>
       
       <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/</guid>
       <description>List of Front Matter variables used by PaperMod</description>
-    </item>
-    
-    <item>
-      <title>Papermod - How To&#39;s Guide</title>
-      <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</link>
-      <pubDate>Fri, 18 Sep 2020 11:30:03 +0530</pubDate>
-      
-      <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</guid>
-      <description>FAQs</description>
     </item>
     
   </channel>

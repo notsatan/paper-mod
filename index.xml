@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 24 Sep 2020 11:33:33 +0530</lastBuildDate><atom:link href="https://adityatelange.github.io/hugo-PaperMod/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Papermod - Installation</title>
+      <title>Installation | Update</title>
       <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0530</pubDate>
       
@@ -16,12 +16,39 @@
     </item>
     
     <item>
-      <title>Papermod - Features</title>
+      <title>Features</title>
       <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/</link>
       <pubDate>Wed, 16 Sep 2020 11:30:03 +0530</pubDate>
       
       <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/</guid>
       <description>Get known about All Features in PaperMod</description>
+    </item>
+    
+    <item>
+      <title>FAQs</title>
+      <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</link>
+      <pubDate>Fri, 18 Sep 2020 11:30:03 +0530</pubDate>
+      
+      <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</guid>
+      <description>Frequently Asked Questions</description>
+    </item>
+    
+    <item>
+      <title>Icons</title>
+      <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/</link>
+      <pubDate>Thu, 17 Sep 2020 11:30:03 +0530</pubDate>
+      
+      <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/</guid>
+      <description>List of all Icons supported by PaperMod</description>
+    </item>
+    
+    <item>
+      <title>Variables | Front Matter</title>
+      <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/</link>
+      <pubDate>Thu, 24 Sep 2020 11:33:33 +0530</pubDate>
+      
+      <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/</guid>
+      <description>List of Front Matter variables used by PaperMod</description>
     </item>
     
     <item>
@@ -31,33 +58,6 @@
       
       <guid>https://adityatelange.github.io/hugo-PaperMod/posts/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Papermod - Icons</title>
-      <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/</link>
-      <pubDate>Thu, 17 Sep 2020 11:30:03 +0530</pubDate>
-      
-      <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons/</guid>
-      <description>List of all Icons supported by PaperMod</description>
-    </item>
-    
-    <item>
-      <title>Papermod - Variables</title>
-      <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/</link>
-      <pubDate>Thu, 24 Sep 2020 11:33:33 +0530</pubDate>
-      
-      <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/</guid>
-      <description>List of Front Matter variables used by PaperMod</description>
-    </item>
-    
-    <item>
-      <title>Papermod - How To&#39;s Guide</title>
-      <link>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</link>
-      <pubDate>Fri, 18 Sep 2020 11:30:03 +0530</pubDate>
-      
-      <guid>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</guid>
-      <description>FAQs</description>
     </item>
     
     <item>

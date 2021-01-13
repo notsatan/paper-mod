@@ -13,23 +13,8 @@
   </url>
   
   <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://adityatelange.github.io/hugo-PaperMod/fr/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://adityatelange.github.io/hugo-PaperMod/fa/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://adityatelange.github.io/hugo-PaperMod/posts/markdown-syntax/"
-                />
+    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</loc>
+    <lastmod>2020-09-18T11:30:03+05:30</lastmod>
   </url>
   
   <url>
@@ -60,11 +45,6 @@
                 hreflang="en"
                 href="https://adityatelange.github.io/hugo-PaperMod/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/</loc>
-    <lastmod>2020-09-24T11:33:33+05:30</lastmod>
   </url>
   
   <url>
@@ -113,8 +93,8 @@
   </url>
   
   <url>
-    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/</loc>
-    <lastmod>2020-09-18T11:30:03+05:30</lastmod>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/</loc>
+    <lastmod>2020-09-24T11:33:33+05:30</lastmod>
   </url>
   
   <url>
@@ -219,6 +199,26 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://adityatelange.github.io/hugo-PaperMod/tags/markdown/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://adityatelange.github.io/hugo-PaperMod/posts/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://adityatelange.github.io/hugo-PaperMod/fr/posts/markdown-syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://adityatelange.github.io/hugo-PaperMod/fa/posts/markdown-syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adityatelange.github.io/hugo-PaperMod/posts/markdown-syntax/"
                 />
   </url>
   
