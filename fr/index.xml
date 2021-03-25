@@ -4,6 +4,10 @@
     <title>PaperModL2</title>
     <link>https://adityatelange.github.io/hugo-PaperMod/fr/</link>
     <description>Recent content on PaperModL2</description>
+    <image>
+      <url>https://adityatelange.github.io/hugo-PaperMod/papermod-cover.png</url>
+      <link>https://adityatelange.github.io/hugo-PaperMod/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://adityatelange.github.io/hugo-PaperMod/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,26 +16,10 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://adityatelange.github.io/hugo-PaperMod/fr/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
     </item>
     
-    <item>
-      <title>Archive</title>
-      <link>https://adityatelange.github.io/hugo-PaperMod/fr/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityatelange.github.io/hugo-PaperMod/fr/archives/</guid>
-      <description>archives</description>
-    </item>
     
-    <item>
-      <title>SearchL2</title>
-      <link>https://adityatelange.github.io/hugo-PaperMod/fr/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://adityatelange.github.io/hugo-PaperMod/fr/search/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

@@ -4,6 +4,10 @@
     <title>emoji on PaperMod</title>
     <link>https://adityatelange.github.io/hugo-PaperMod/tags/emoji/</link>
     <description>Recent content in emoji on PaperMod</description>
+    <image>
+      <url>https://adityatelange.github.io/hugo-PaperMod/papermod-cover.png</url>
+      <link>https://adityatelange.github.io/hugo-PaperMod/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://adityatelange.github.io/hugo-PaperMod/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://adityatelange.github.io/hugo-PaperMod/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <description>Guide to emoji usage in Hugo</description>
     </item>
     
   </channel>

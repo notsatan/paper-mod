@@ -4,6 +4,10 @@
     <title>shortcodes on PaperMod</title>
     <link>https://adityatelange.github.io/hugo-PaperMod/tags/shortcodes/</link>
     <description>Recent content in shortcodes on PaperMod</description>
+    <image>
+      <url>https://adityatelange.github.io/hugo-PaperMod/papermod-cover.png</url>
+      <link>https://adityatelange.github.io/hugo-PaperMod/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://adityatelange.github.io/hugo-PaperMod/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://adityatelange.github.io/hugo-PaperMod/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+      <description>A brief description of Hugo Shortcodes</description>
     </item>
     
   </channel>
