@@ -36,11 +36,18 @@
     color: var(--content);
 }
 
+.post-content h1,
+.post-content h2,
 .post-content h3,
 .post-content h4,
 .post-content h5,
 .post-content h6 {
     margin: 24px 0 16px;
+}
+
+.post-content h1,
+.post-content h2  {
+  border-bottom: 1.5px solid gray;
 }
 
 .post-content h1 {
