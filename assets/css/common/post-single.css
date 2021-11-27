@@ -356,16 +356,22 @@
     transform: scale(0.96);
 }
 
+.anchor {
+  box-shadow: none !important;
+  margin-inline-start: 8px;
+  display: inline-flex;
+  font-weight: 600;
+  opacity: 0;
+}
+
 h1:hover .anchor,
 h2:hover .anchor,
 h3:hover .anchor,
 h4:hover .anchor,
 h5:hover .anchor,
 h6:hover .anchor {
-    display: inline-flex;
+    opacity:    1;
     color: var(--secondary);
-    margin-inline-start: 8px;
-    font-weight: 500;
     user-select: none;
 }
 
