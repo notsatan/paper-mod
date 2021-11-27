@@ -25,7 +25,7 @@
     -webkit-line-clamp: 3;
 }
 
-.first-entry .entry-footer {
+.entry-tags-container, .first-entry .entry-footer {
     font-size: 14px;
 }
 
@@ -70,6 +70,32 @@
 .entry-footer {
     color: var(--secondary);
     font-size: 13px;
+}
+
+.entry-tags-container {
+  color: var(--secondary);
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.entry-tags {
+  padding: 0;
+  margin: 0;
+}
+
+.entry-tags li {
+  z-index: 10;
+  display: inline-block;
+  margin-inline-end: 3px;
+}
+
+.entry-tags a {
+  border-radius: var(--radius);
+}
+
+.entry-tags a:hover {
+  color: Salmon;
+  text-decoration: underline;
 }
 
 .entry-link {
