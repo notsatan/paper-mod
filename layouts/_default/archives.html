@@ -31,6 +31,7 @@
         <h3 class="archive-entry-title">
           {{- .Title | markdownify }}
           {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+          {{- if gt (math.Max .Date.Unix .PublishDate.Unix) now.Unix }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[future]</span></sup>{{- end }}
         </h3>
         <div class="archive-meta">
           {{- partial "post_meta.html" . -}}

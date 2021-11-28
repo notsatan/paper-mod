@@ -6,6 +6,7 @@
     <h1 class="post-title">
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+      {{- if gt (math.Max .Date.Unix .PublishDate.Unix) now.Unix }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[future]</span></sup>{{- end }}
     </h1>
     {{- if .Description }}
     <div class="post-description">
