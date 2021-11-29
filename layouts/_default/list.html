@@ -56,6 +56,7 @@
       <a aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">{{- .Title }}</a>
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       {{- if gt (math.Max .Date.Unix .PublishDate.Unix) now.Unix }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[future]</span></sup>{{- end }}
+      {{- if (and .ExpiryDate (lt .ExpiryDate.Unix now.Unix)) }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[expired]</span></sup>{{- end }}
     </h2>
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
