@@ -47,6 +47,9 @@
 
 .post-content h1,
 .post-content h2  {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 3px;
   border-bottom: 1.5px solid gray;
 }
 
