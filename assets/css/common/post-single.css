@@ -39,6 +39,12 @@
 sup .footnote-ref {
   text-decoration: none !important;
   box-shadow: none !important;
+  transition: 0.2s all ease;
+  padding-left: 1px;
+}
+
+sup .footnote-ref:hover {
+  box-shadow: 0 1px !important;
 }
 
 .post-content h1,
