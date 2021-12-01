@@ -36,6 +36,11 @@
     color: var(--content);
 }
 
+sup .footnote-ref {
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
 .post-content h1,
 .post-content h2,
 .post-content h3,
