@@ -60,8 +60,14 @@ sup .footnote-ref:hover {
 .post-content h2  {
   padding-left: 2px;
   padding-right: 2px;
-  padding-bottom: 3px;
+  padding-bottom: 9px;
+  transition: 0.2s all ease;
   border-bottom: 1.5px solid gray;
+}
+
+.post-content h1:hover,
+.post-content h2:hover  {
+    padding-bottom: 5px;
 }
 
 .post-content h1 {
