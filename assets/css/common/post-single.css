@@ -157,6 +157,7 @@ sup .footnote-ref:hover {
 
 .post-content table {
     margin-bottom: 32px;
+    margin: 0 auto;
 }
 
 .post-content table th,
