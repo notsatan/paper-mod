@@ -75,7 +75,6 @@
 .entry-tags-container {
   color: var(--secondary);
   padding-top: 10px;
-  font-size: 15px;
 }
 
 .entry-tags {
@@ -88,10 +87,12 @@
 .entry-tags-container li {
   display: inline-block;
   margin-inline-end: 3px;
+  font-size: 13.5px;
 }
 
 .entry-tags {
   border-radius: var(--radius);
+  font-family: monospace;
 }
 
 .entry-tags:hover {
