@@ -49,11 +49,13 @@
 {{- end }}
 
 <article class="{{ $class }}">
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  
   {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
     <h2>
-      <a aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">{{- .Title }}</a>
+      {{- .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       {{- if gt (math.Max .Date.Unix .PublishDate.Unix) now.Unix }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[future]</span></sup>{{- end }}
       {{- if (and .ExpiryDate (lt .ExpiryDate.Unix now.Unix)) }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[expired]</span></sup>{{- end }}
