@@ -73,9 +73,9 @@
   {{- if (ne (.Param "HideHomeTags") true) }}
   <footer class="entry-tags-container">
       {{- if .Params.tags }}
-      <ul class="entry-tags">
+      <ul>
         {{- range .Params.tags }}
-        <li><a href="{{ "tags/" | absLangURL }}{{ replace . " " "-" | urlize }}">#{{ replace . " " "-" }}</a></li>
+        <li><a class="entry-tags" href="{{ "tags/" | absLangURL }}{{ replace . " " "-" | urlize }}">#{{ replace . " " "-" }}</a></li>
         {{- end }}
       </ul>
       {{- end }}

@@ -73,29 +73,28 @@
 }
 
 .entry-tags-container {
-  z-index: 1;
-  position: sticky;
   color: var(--secondary);
   padding-top: 10px;
   font-size: 15px;
 }
 
 .entry-tags {
+  z-index: 1;
+  position: sticky;
   padding: 0;
   margin: 0;
 }
 
-.entry-tags li {
-  z-index: 10;
+.entry-tags-container li {
   display: inline-block;
   margin-inline-end: 3px;
 }
 
-.entry-tags a {
+.entry-tags {
   border-radius: var(--radius);
 }
 
-.entry-tags a:hover {
+.entry-tags:hover {
   color: Salmon;
   text-decoration: underline;
 }
