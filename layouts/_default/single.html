@@ -9,7 +9,7 @@
       {{- if gt (math.Max .Date.Unix .PublishDate.Unix) now.Unix }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[future]</span></sup>{{- end }}
       {{- if (and .ExpiryDate (lt .ExpiryDate.Unix now.Unix)) }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[expired]</span></sup>{{- end }}
     </h1>
-    {{- if .Description }}
+    {{- if (and .Description .Site.Params.showDescriptionInPost) }}
     <div class="post-description">
       {{ .Description | markdownify }}
     </div>
