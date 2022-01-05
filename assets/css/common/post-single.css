@@ -221,6 +221,38 @@ sup .footnote-ref:hover {
     display: none;
 }
 
+abbr[full-form] {
+    position: relative;
+
+    /* ensure consistent styling across browsers */
+    text-decoration: underline dotted; 
+}
+
+abbr[full-form]:hover::after,
+abbr[full-form]:focus::after {
+    content: attr(full-form);
+
+    /* position tooltip like the native one */
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: auto;
+    white-space: nowrap;
+
+    /* style tooltip */
+    background-color: #1e1e1e;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
+    font-size: 14px;
+    padding: 5px 7px;
+}
+
+.dark abbr[full-form]:hover::after,
+.dark abbr[full-form]:focus::after {
+    background: var(--entry);
+}
+
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
