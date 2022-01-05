@@ -248,6 +248,11 @@ abbr[full-form]:focus::after {
     padding: 5px 7px;
 }
 
+.dark abbr[full-form]:hover::after,
+.dark abbr[full-form]:focus::after {
+    background: var(--entry);
+}
+
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
