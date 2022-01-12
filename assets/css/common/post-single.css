@@ -225,7 +225,7 @@ abbr[full-form] {
     position: relative;
 
     /* ensure consistent styling across browsers */
-    text-decoration: underline dotted; 
+    text-decoration: underline dotted;
 }
 
 abbr[full-form]:hover::after,
