@@ -156,8 +156,14 @@ sup .footnote-ref:hover {
 }
 
 .post-content table {
+    caption-side: bottom;
     margin: 0 auto;
     margin-bottom: 32px !important;
+}
+
+.post-content caption {
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 .post-content table th,
