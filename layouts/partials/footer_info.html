@@ -1,8 +1,8 @@
 <footer class="footer">
-    {{- if .Site.Copyright }}
-    <span>{{ .Site.Copyright | markdownify }}</span>
+    {{- if site.Copyright }}
+    <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
+    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
     {{- end }}
     <br>
     <span>
