@@ -23,14 +23,14 @@
     {{- with site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
 <meta name="author" content="{{ (partial "author.html" . ) }}">
 <link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}" >
-{{- if site.Params.analytics.google.SiteVerificationTag }}
-<meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}" >
+{{- if site.Params.analytics.googlesiteVerificationTag }}
+<meta name="google-site-verification" content="{{ site.Params.analytics.googlesiteVerificationTag }}" >
 {{- end }}
-{{- if site.Params.analytics.yandex.SiteVerificationTag }}
-<meta name="yandex-verification" content="{{ site.Params.analytics.yandex.SiteVerificationTag }}" >
+{{- if site.Params.analytics.yandexsiteVerificationTag }}
+<meta name="yandex-verification" content="{{ site.Params.analytics.yandexsiteVerificationTag }}" >
 {{- end }}
-{{- if site.Params.analytics.bing.SiteVerificationTag }}
-<meta name="msvalidate.01" content="{{ site.Params.analytics.bing.SiteVerificationTag }}" >
+{{- if site.Params.analytics.bingsiteVerificationTag }}
+<meta name="msvalidate.01" content="{{ site.Params.analytics.bingsiteVerificationTag }}" >
 {{- end }}
 
 {{- /* Styles */}}
@@ -56,16 +56,6 @@
 <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" integrity="{{ $stylesheet.Data.Integrity }}" rel="preload stylesheet" as="style">
 {{- else }}
 <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
-{{- end }}
-
-{{- with site.Params.profileMode }}
-{{- if and .enabled .imageUrl $.IsHome }}
-<link rel="preload" href="{{ .imageUrl }}" as="image">
-{{- end }}
-{{- end }}
-
-{{- with site.Params.label.icon }}
-<link rel="preload" href="{{ . }}" as="image">
 {{- end }}
 
 {{- /* Search */}}
