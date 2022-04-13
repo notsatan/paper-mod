@@ -1,21 +1,24 @@
-<h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
-
+<h1 align=center>paper-mod</h1>
 <h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>
+
 <br>
 
-> Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper).
-> The goal of this project is to add more features and customization to the og theme.
+<h3 align="center"><a href="https://notsatan.github.io/paper-mod" rel="nofollow">Demo Site</a></h2>
 
-The [demo](https://adityatelange.github.io/hugo-PaperMod/) includes a lot of documentation about Installation, Features with a few more stuff. Make sure you visit it, to get an awesome hands-on experience and get to know about the features ...
+<br>
 
-**ExampleSite** can be found here: [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite) as source.
+> *paper-mod* is a fork of [Hugo PaperMod][hugo-PaperMod] which itself is a theme based on [hugo-paper][hugo-paper].
+> 
+> This fork exists to serve a very limited audience: *me*. To anyone else, I recommend using the original [Hugo PaperMod][hugo-PaperMod] project instead. While I do plan to keep *paper-mod* updated with the upstream changes, for one there's no gurantee on this, and for two, I ignore upstream changes that I feel do not add value to the direction I want to take *paper-mod* in!
 
-[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=0.83.0&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.83.0)
-[![Build GH-Pages](https://github.com/adityatelange/hugo-PaperMod/workflows/Build%20GH-Pages/badge.svg)](https://github.com/adityatelange/hugo-PaperMod/deployments/activity_log?environment=github-pages)
-[![GitHub](https://img.shields.io/github/license/adityatelange/hugo-PaperMod)](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE)
-[![hugo-papermod](https://img.shields.io/badge/Hugo--Themes-@PaperMod-blue)](https://themes.gohugo.io/themes/hugo-papermod/)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=adityatelange_hugo-PaperMod&metric=alert_status)](https://sonarcloud.io/dashboard?id=adityatelange_hugo-PaperMod)
-![code-size](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
+The [demo][demo-site] includes a some documentation regarding installation, features and some stuff. You are recommended to start with taking a look at the demo site to get an idea of what it looks like!
+
+A live demo site can be found [here][demo-site]. The demo site is built through the branch [`demo`][demo-tree] as source.
+
+[![Minimum Hugo Version](https://img.shields.io/static/v1?label=Min-Hugo-Version&message=0.83.0&color=blue&logo=hugo&style=for-the-badge)](https://github.com/gohugoio/hugo/releases/tag/v0.83.0)
+[![Build GH-Pages](https://img.shields.io/github/workflow/status/notsatan/paper-mod/Build%20GH-Pages?style=for-the-badge)](https://github.com/notsatan/paper-mod/deployments/activity_log?environment=github-pages)
+[![GitHub](https://img.shields.io/github/license/notsatan/paper-mod?style=for-the-badge)](https://github.com/notsatan/paper-mod/blob/master/LICENSE)
+![Code Size](https://img.shields.io/github/languages/code-size/notsatan/paper-mod?style=for-the-badge)
 
 ---
 
@@ -32,22 +35,22 @@ The [demo](https://adityatelange.github.io/hugo-PaperMod/) includes a lot of doc
     -   [Regular Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#regular-mode-default-mode)
     -   [Home-Info Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)
     -   [Profile Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)
--   Table of Content Generation (newer implementation).
--   Archive of posts.
--   Social Icons (home-info and profile-mode)
--   Social-Media Share buttons on posts.
--   Menu location indicator.
--   Multilingual support. (with language selector)
+-   Table of Content Generation
+-   Post archive
+-   Social Icons
+-   Social-Media share buttons on posts
+-   Menu location indicator
+-   Multilingual support (with language selector)
 -   Taxonomies
--   Cover image for each post (with Responsive image support).
--   Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
--   SEO Friendly.
--   Multiple Author support.
--   Search Page with Fuse.js
--   Other Posts suggestion below a post
--   Breadcrumb Navigation
--   Code Block Copy buttons
--   No webpack, nodejs and other dependencies are required to edit the theme.
+-   Cover image for each post (supporting responsive images)
+-   Dark theme (with support for automatic theme switching).
+-   SEO Friendly
+-   Multiple Author support
+-   Search support with [`fuse.js`][fusejs]
+-   Navgiation for next and previous posts below each post
+-   Breadcrumb navigation
+-   Support for code blocks with copy buttons
+-   No webpack, nodejs and other dependencies needed for development
 
 Read Wiki For More Details => **[PaperMod - Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)**
 
@@ -81,10 +84,9 @@ Release ChangeLog has info about stuff added: **[Releases](https://github.com/ad
 
 ---
 
-## Special Thanks 🌟
-
--   [**Highlight.js**](https://github.com/highlightjs/highlight.js)
--   [**Fuse.js**](https://github.com/krisk/fuse)
--   [**Feather Icons**](https://github.com/feathericons/feather)
--   [**Simple Icons**](https://github.com/simple-icons/simple-icons)
--   **All Contributors and Supporters**
+[main-url]: https://github.com/notsatan/paper-mod
+[demo-tree]: https://github.com/notsatan/paper-mod/tree/demo
+[demo-site]: https://notsatan.github.io/paper-mod
+[hugo-PaperMod]: https://github.com/adityatelange/hugo-PaperMod
+[hugo-paper]: https://github.com/nanxiaobei/hugo-paper
+[fusejs]: https://fusejs.io
