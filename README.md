@@ -1,11 +1,15 @@
 <h1 align=center>paper-mod</h1>
-<h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>
 
-<br>
+<div align="center">
+
+[![Minimum Hugo Version](https://img.shields.io/static/v1?label=Min-Hugo-Version&message=0.83.0&color=blue&logo=hugo&style=for-the-badge)](https://github.com/gohugoio/hugo/releases/tag/v0.83.0)
+[![Build GH-Pages](https://img.shields.io/github/workflow/status/notsatan/paper-mod/Build%20GH-Pages?style=for-the-badge)](https://github.com/notsatan/paper-mod/deployments/activity_log?environment=github-pages)
+[![GitHub](https://img.shields.io/github/license/notsatan/paper-mod?style=for-the-badge)](https://github.com/notsatan/paper-mod/blob/master/LICENSE)
+![Code Size](https://img.shields.io/github/languages/code-size/notsatan/paper-mod?style=for-the-badge)
+
+</div>
 
 <h3 align="center"><a href="https://notsatan.github.io/paper-mod" rel="nofollow">Demo Site</a></h2>
-
-<br>
 
 > *paper-mod* is a fork of [Hugo PaperMod][hugo-PaperMod] which itself is a theme based on [hugo-paper][hugo-paper].
 > 
@@ -14,11 +18,6 @@
 The [demo][demo-site] includes a some documentation regarding installation, features and some stuff. You are recommended to start with taking a look at the demo site to get an idea of what it looks like!
 
 A live demo site can be found [here][demo-site]. The demo site is built through the branch [`demo`][demo-tree] as source.
-
-[![Minimum Hugo Version](https://img.shields.io/static/v1?label=Min-Hugo-Version&message=0.83.0&color=blue&logo=hugo&style=for-the-badge)](https://github.com/gohugoio/hugo/releases/tag/v0.83.0)
-[![Build GH-Pages](https://img.shields.io/github/workflow/status/notsatan/paper-mod/Build%20GH-Pages?style=for-the-badge)](https://github.com/notsatan/paper-mod/deployments/activity_log?environment=github-pages)
-[![GitHub](https://img.shields.io/github/license/notsatan/paper-mod?style=for-the-badge)](https://github.com/notsatan/paper-mod/blob/master/LICENSE)
-![Code Size](https://img.shields.io/github/languages/code-size/notsatan/paper-mod?style=for-the-badge)
 
 ---
 
@@ -71,12 +70,6 @@ Read Wiki For More Details => **[PaperMod-Icons](https://github.com/adityatelang
 ## FAQs / How To's Guide 🙋
 
 Read Wiki For More Details => **[PaperMod-FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)**
-
----
-
-## Release Changelog
-
-Release ChangeLog has info about stuff added: **[Releases](https://github.com/adityatelange/hugo-PaperMod/releases)**
 
 ---
 
